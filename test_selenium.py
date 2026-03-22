@@ -27,24 +27,30 @@ for site in sites:
 '''
 
 #search by input in google
-# driver.get(sites[0])
-# search = driver.find_element(By.NAME, "q")
-# search.send_keys('rashtriya military school, chail')
-# search.submit()
+'''
+driver.get(sites[0])
+search = driver.find_element(By.NAME, "q")
+search.send_keys('rashtriya military school, chail')
+search.submit()
+'''
 
 # #click on captcha button
-# button = driver.find_element(By.XPATH, "//div[@class = 'recaptcha-checkbox-border']")
-
+'''
+    button = driver.find_element(By.XPATH, "//div[@class 'recaptcha-checkbox-border']")
+'''
 
 #search by input in youtube
-# driver.get('https://youtube.com')
-# search = driver.find_element(By.NAME, "search_query")
-# search.send_keys('arijit singh latest songs')
-# search.submit()
-
+'''
+driver.get('https://youtube.com')
+search = driver.find_element(By.NAME, "search_query")
+search.send_keys('arijit singh latest songs')
+search.submit()
+'''
 
 
 
 
 #close browser
+'''
 driver.quit()
+'''
