@@ -7,6 +7,7 @@ brave_path = '/bin/brave-browser'
 options = Options()
 options.binary_location = brave_path
 driver = webdriver.Chrome(options = options)
+driver.implicitly_wait(10)
 
 
 print('--------------------Logging In-------------------')
